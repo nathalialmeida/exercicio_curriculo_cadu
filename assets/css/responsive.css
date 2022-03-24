@@ -31,7 +31,7 @@
         min-height: 100px;
         margin-bottom: 50px;
     }
-    .container .h-sobre .h-title-sobre h2 {
+    .container .h-sobre .h-title .h2 {
         margin-top: 5%;
         font-size: 22px;
     }
@@ -39,7 +39,7 @@
         font-size: 18px;
     }
     /* Experiências */
-    .container .h-experiencia .h-title-experiencia h2 {
+    .container .h-experiencia .h-title .h2 {
         margin-top: 5%;
         font-size: 22px;
     }
@@ -63,7 +63,7 @@
     }
 
     /* Educação */
-    .container .h-educacao .h-title-educacao h2 {
+    .container .h-educacao .h-title h2 {
         margin-top: 5%;
         font-size: 22px;
     }
@@ -81,7 +81,7 @@
     }
 
     /* Habilidades */
-    .container .h-habilidades .h-title-habilidades h2 {
+    .container .h-habilidades .h-title h2 {
         margin-top: 5%;
         font-size: 22px;
     }
@@ -94,7 +94,7 @@
     }
 
     /* Contato */
-    .container .h-contato .h-title-contato h2 {
+    .container .h-contato .h-title h2 {
         margin-top: 5%;
         font-size: 22px;
     }
