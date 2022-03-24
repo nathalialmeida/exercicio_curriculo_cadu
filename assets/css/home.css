@@ -24,21 +24,28 @@
     text-transform: uppercase;
     color: #00E0FF;
 }
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*h-title esta alterando de forma global*/
+.container .h-title{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 25px;
+}
+/*h2 esta alterando de forma global*/
+.container .h2{
+    margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+/*paragraf esta alterando de forma global*/
+.container .paragraf {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: 18px;
+}
 /* Sobre */
 .container #h-name .h-sobre {
     width: 100%;
@@ -67,14 +74,12 @@
     font-size: 22px;
     margin-bottom: 10px;
     text-transform: uppercase;
-  
 }
 .container .h-experiencia .h-itens .item .work p {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
-    
 }
 .container .h-experiencia .h-itens .item .description {
     width: 75%;
@@ -139,8 +144,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    text-transform: uppercase;
-   
+    text-transform: uppercase; 
 }
 .container .h-habilidades .item .icon {
     position: relative;
@@ -152,29 +156,22 @@
     background: transparent;
 }
 /* Percentuais */
-.container .h-habilidades .item .icon .percentual-10 {
-    width: 110px;
+.container .h-habilidades .item .icon .percentual{
     height: 100%;
     border-radius: 6px;
-    background-color: #00E0FF;   
+    background-color: #00E0FF;
 }
-.container .h-habilidades .item .icon .percentual-50 {
+.container .h-habilidades .item .icon #percentual-10 {
+    width: 110px;  
+}
+.container .h-habilidades .item .icon #percentual-50 {
     width: 150px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
 }
-.container .h-habilidades .item .icon .percentual-80 {
-    width: 180px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
+.container .h-habilidades .item .icon #percentual-80 {
+    width: 180px;  
 }
-.container .h-habilidades .item .icon .percentual-100 {
+.container .h-habilidades .item .icon #percentual-100 {
     width: 200px;
-    height: 100%;
-    border-radius: 6px;
-    background-color: #00E0FF;   
 }
 /* Contato */
 .container .h-contato {
